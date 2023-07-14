@@ -1,40 +1,63 @@
 export const SkillsData = [
   {
-    type: "Web-Development",
+    type: "Advanced",
     list: [
       {
-        name: "ReactJS",
-        icon: <i className="devicon-react-original colored"></i>,
-      },
-      {
-        name: "HTML5",
-        icon: <i className="devicon-html5-plain colored"></i>,
-      },
-      {
-        name: "CSS3",
-        icon: <i className="devicon-css3-plain colored"></i>,
-      },
-      {
-        name: "JavaScript",
-        icon: <i className="devicon-javascript-plain colored"></i>,
-      },
-      {
-        name: "Tailwind",
-        icon: <i className="devicon-tailwindcss-plain colored"></i>,
+        name: "Python",
+        icon: <i className="devicon-python-plain colored"></i>,
       },
     ],
   },
   {
-    type: "Cloud & Linux",
+    type: "I can find my way around...",
     list: [
-      {
-        name: "Azure",
-        icon: <i className="devicon-azure-plain colored"></i>,
-      },
       {
         name: "Docker",
         icon: <i className="devicon-docker-plain colored"></i>,
       },
+      {
+        name: "Bash",
+        icon: <i className="devicon-bash-plain colored"></i>,
+      },
+      {
+        name: "Javascript",
+        icon: <i className="devicon-javascript-plain colored"></i>,
+      },
+      {
+        name: "React",
+        icon: <i className="devicon-react-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "I'm working on it",
+    list: [
+      {
+        name: "C/C++",
+        icon: <i className="devicon-cplusplus-plain colored"></i>,
+      },
+      {
+        name: "C#",
+        icon: <i className="devicon-bash-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "I have contributed to projects that used...",
+    list: [
+      {
+        name: "Java",
+        icon: <i className="devicon-java-plain colored"></i>,
+      },
+      {
+        name: "C#.NET (WPF)",
+        icon: <i className="devicon-csharp-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "Tools I'm familiar with",
+    list: [
       {
         name: "Git",
         icon: <i className="devicon-git-plain colored"></i>,
@@ -44,8 +67,8 @@ export const SkillsData = [
         icon: <i className="devicon-ubuntu-plain colored"></i>,
       },
       {
-        name: "Bash",
-        icon: <i className="devicon-bash-plain colored"></i>,
+        name: "Postman",
+        icon: <i className="devicon-postman-plain colored"></i>,
       },
     ],
   },

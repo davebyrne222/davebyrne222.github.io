@@ -7,13 +7,13 @@ function Mobile({ isOpen, setIsOpen }) {
         <i className="fi-rr-cross-circle"></i>
       </div>
       <div className="mobile-option">
-        <a href="#skills">
-          <i className="fi-rr-poll-h option-icon"></i>About
+        <a href="#projects">
+          <i className="fi-rr-diagram-project option-icon"></i>Portfolio
         </a>
       </div>
       <div className="mobile-option">
-        <a href="#projects">
-          <i className="fi-rr-diagram-project option-icon"></i>Portfolio
+        <a href="#skills">
+          <i className="fi-rr-user-robot option-icon"></i>Tech. Stack
         </a>
       </div>
       <div className="mobile-option">

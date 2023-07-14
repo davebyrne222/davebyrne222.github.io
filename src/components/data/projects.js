@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "This Page!",
     tagline:
-      "This page was orioginally created by ThantZinPhyo (see footer for a link) but I modified it to suit my preferences. Nothing to write home about but hey, its something!",
+      "This page was origionally created by ThantZinPhyo (see footer for a link) but I modified it to suit my preferences. Nothing to write home about but hey, its something!",
     about: "",
     tags: ["React"],
     demo: "",
