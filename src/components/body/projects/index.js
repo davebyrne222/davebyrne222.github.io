@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="projects">
       <Separator />
-      <label className="section-title">Projects</label>
+      <label className="section-title">Portfolio</label>
       <div>
         {data.map((project, idx) => {
           return <ProjectCard project={project} key={idx} />;
