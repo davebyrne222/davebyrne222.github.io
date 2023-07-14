@@ -1,6 +1,7 @@
 import React from "react";
 import "./body.css";
 import Hero from "./hero/index";
+import About from "./about/index";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
 import Work from "./work/index";
@@ -18,8 +19,11 @@ function Body() {
       <section id="skills">
         <Skills />
       </section>
-      <section id="work">
+      {/* <section id="work">
         <Work />
+      </section> */}
+      <section id="about">
+        <About />
       </section>
       <section id="contact">
         <Contact />
