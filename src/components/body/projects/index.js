@@ -10,8 +10,8 @@ function Projects() {
       <Separator />
       <label className="section-title">Projects</label>
       <div>
-        {data.map((project) => {
-          return <ProjectCard project={project} />;
+        {data.map((project, idx) => {
+          return <ProjectCard project={project} key={idx} />;
         })}
       </div>
     </div>

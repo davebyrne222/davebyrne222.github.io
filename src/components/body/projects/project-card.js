@@ -12,19 +12,23 @@ function ProjectCard({ project }) {
                 <i class="fi-rr-globe"></i>Demo
               </div>
             </a>
-            )}
-            {project.github&& (
-              <a className="project-link" href={project.github}>
-                <div className="link-button">
+          )}
+          {project.github && (
+            <a className="project-link" href={project.github}>
+              <div className="link-button">
                 <i class="devicon-github-original colored"></i>Github
               </div>
             </a>
-            )}
+          )}
         </div>
         <p>{project.about}</p>
         <div className="project-tags">
-          {project.tags.map((tag)=> {
-            return <label className="tag">{tag}</label>;
+          {project.tags.map((tag, idx) => {
+            return (
+              <label className="tag" key={idx}>
+                {tag}
+              </label>
+            );
           })}
         </div>
       </div>
