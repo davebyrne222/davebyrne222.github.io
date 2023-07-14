@@ -1,6 +1,6 @@
 export const SkillsData = [
   {
-    type: "Advanced",
+    type: "I'm pretty good at",
     list: [
       {
         name: "Python",
@@ -9,7 +9,7 @@ export const SkillsData = [
     ],
   },
   {
-    type: "I can find my way around...",
+    type: "I can find my way around",
     list: [
       {
         name: "Docker",
@@ -43,7 +43,7 @@ export const SkillsData = [
     ],
   },
   {
-    type: "I have contributed to projects that used...",
+    type: "I have contributed to projects that used",
     list: [
       {
         name: "Java",
