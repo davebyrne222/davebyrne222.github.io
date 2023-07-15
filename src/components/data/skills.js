@@ -30,12 +30,8 @@ export const SkillsData = [
     ],
   },
   {
-    type: "I'm working on it",
+    type: "I'm currently learning",
     list: [
-      {
-        name: "C/C++",
-        icon: <i className="devicon-cplusplus-plain colored"></i>,
-      },
       {
         name: "C#",
         icon: <i className="devicon-bash-plain colored"></i>,
@@ -43,7 +39,7 @@ export const SkillsData = [
     ],
   },
   {
-    type: "I have contributed to projects that used",
+    type: "I have dabbled in / contributed to projects that used",
     list: [
       {
         name: "Java",
@@ -52,6 +48,10 @@ export const SkillsData = [
       {
         name: "C#.NET (WPF)",
         icon: <i className="devicon-csharp-plain colored"></i>,
+      },
+      {
+        name: "C/C++ (WPF)",
+        icon: <i className="devicon-cplusplus-plain colored"></i>,
       },
     ],
   },
