@@ -1,4 +1,17 @@
-.body{
-    padding: 12px;
-    padding-bottom: 36px;
+.body {
+  padding: 12px;
+  padding-bottom: 36px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.section-header {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-paragraph {
 }

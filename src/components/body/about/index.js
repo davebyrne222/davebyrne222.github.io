@@ -5,21 +5,24 @@ function About() {
   return (
     <div className="about">
       <Separator />
-      <label className="section-title">About</label>
+      <h1 className="section-title">About</h1>
 
-      <div className="subsection-title">
-        Why Change to Software Development?
-      </div>
-      <div className="about-paragraph">
+      <h2 className="section-header">Why Change to Software Development?</h2>
+      <p>
         I'm an IT professional with over 10 years experience in the software
         development industry, mainly as a Scrum Master. I'm now making the move
         to full-time developer
-      </div>
+      </p>
 
-      <div className="subsection-title">Why Now, Why Not 10 Years Ago?</div>
-      <div className="about-paragraph">
-        I took the opportunities life presented
-      </div>
+      <h2 className="section-header">How did I get here?</h2>
+      <p>
+        I'm an IT professional with over 10 years experience in the software
+        development industry, mainly as a Scrum Master. I'm now making the move
+        to full-time developer
+      </p>
+
+      <h2 className="section-header">Why Now, Why Not 10 Years Ago?</h2>
+      <p>I took the opportunities life presented</p>
     </div>
   );
 }

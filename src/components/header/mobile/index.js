@@ -17,8 +17,8 @@ function Mobile({ isOpen, setIsOpen }) {
         </a>
       </div>
       <div className="mobile-option">
-        <a href="#work">
-          <i className="fi-rr-user-robot option-icon"></i>Tech. Stack
+        <a href="#about">
+          <i className="fi-rr-poll-h option-icon"></i>About
         </a>
       </div>
       <div className="mobile-option">

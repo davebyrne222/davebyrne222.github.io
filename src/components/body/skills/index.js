@@ -8,12 +8,12 @@ function Skills() {
   return (
     <div className="skills">
       <Separator />
-      <label className="section-title">Skills</label>
+      <h1 className="section-title">Skills</h1>
       <div className="skills-container">
         {data.map((item, idx) => {
           return (
             <div className="skills-section" key={idx}>
-              <label className="skills-section-title">{item.type}</label>
+              <h2 className="section-header">{item.type}</h2>
               <div className="skills-list">
                 {item.list.map((skill, idx) => {
                   return <SkillCard skill={skill} key={idx} />;

@@ -8,12 +8,12 @@ function Projects() {
   return (
     <div className="projects">
       <Separator />
-      <label className="section-title">Portfolio</label>
-      <div>
+      <h1 className="section-title">Portfolio</h1>
+      <>
         {data.map((project, idx) => {
           return <ProjectCard project={project} key={idx} />;
         })}
-      </div>
+      </>
     </div>
   );
 }

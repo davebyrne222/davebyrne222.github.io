@@ -9,12 +9,12 @@ function ProjectCard({ project }) {
     >
       <div className="project-card">
         <div className="project-info">
-          <label className="project-title">
+          <h2 className="section-header">
             {project.title}{" "}
             {project.live ? null : (
               <label className="tag tag-coming-soon">Coming Soon!</label>
             )}
-          </label>
+          </h2>
           <p>{project.tagline}</p>
           <p>{project.about}</p>
           <div className="project-tags">
