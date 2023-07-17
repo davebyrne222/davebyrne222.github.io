@@ -15,7 +15,7 @@ function About() {
       </p>
 
       <h2 className="section-header">Why Change to Software Development?</h2>
-      <p>
+      <span>
         Three reasons:
         <ul>
           <li>
@@ -35,7 +35,7 @@ function About() {
             right time to make the change
           </li>
         </ul>
-      </p>
+      </span>
 
       <h2 className="section-header">
         How are physics, Scrum Mastering, and Software Development related?
