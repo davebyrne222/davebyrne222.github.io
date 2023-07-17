@@ -13,11 +13,25 @@ import Stack from "@mui/material/Stack";
 
 export default function ActionAreaCard({ project }) {
   return (
-    <Card sx={{ maxWidth: 345, height: "100%" }} raised={true}>
+    <Card
+      sx={{
+        maxWidth: 345,
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+      }}
+      raised={true}
+    >
       <CardActionArea
         href={project.live ? project.github : null}
         disabled={!project.live}
         target="_blank"
+        sx={{
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "start",
+        }}
       >
         <CardHeader title={project.title} />
         <CardContent>
@@ -26,12 +40,16 @@ export default function ActionAreaCard({ project }) {
           ) : (
             <Chip label="Coming Soon" size="small" variant="outlined" />
           )}
+        </CardContent>
+        <CardContent sx={{ flexGrow: 1 }}>
           <Typography gutterBottom variant="body1" color="text.secondary">
             {project.tagline}
           </Typography>
           <Typography gutterBottom variant="body2" color="text.secondary">
             {project.about}
           </Typography>
+        </CardContent>
+        <CardContent>
           <Stack
             direction="row"
             spacing={1}
