@@ -10,7 +10,7 @@ function About() {
       <p>
         I'm Dave, from Dublin, Ireland. I've been working in the area of
         software development for over 10 years and programming on the side for
-        even longer than that. After many years of longing to work in software
+        longer than that. After many years of longing to work in software
         development, I'm making the change.
       </p>
 
@@ -24,7 +24,7 @@ function About() {
             use it wherever I could, be it work or personal projects. As a scrum
             master, I was always interested in what the developers were doing,
             often wanting to understand more of what they were working on and at
-            times, even contributing
+            times, contributing
           </li>
           <li>
             I miss working on technical challenges - as a physicist, I enjoyed
@@ -34,8 +34,8 @@ function About() {
           <li>
             The time is right - I have just been made redundant (layed-off) and
             coincidentally had recently started studying computer science in
-            Dublin's 'Dublin Business School' as a hobby, so I felt it was the
-            right time to make the change
+            Dublin Business School as a hobby, so I felt it was the right time
+            to make the change
           </li>
         </ul>
       </span>
@@ -48,7 +48,7 @@ function About() {
         research and work, so-much-so that my first coding experience was as an
         undergraduate student first studying Matlab, and then C & C++ for
         numerical analysis. As a masters student, I then used python for data
-        analysis and modelling
+        analysis and modelling.
       </p>
       <p>
         As a scrum master, I spent 10 years working very closely with a number
@@ -58,11 +58,11 @@ function About() {
         hotels, etc. During this time, I became intimately involved in the
         development lifecycle, from requirements generation to design, from
         prototyping to full CI/CD pipelined implementations, from dark-releases
-        to global customer releases (and the inevitable outages)
+        to global customer releases (and the inevitable outages).
       </p>
       <p>
-        And during that time, I even contributed to some software projects
-        directly and even built some proprietary applications myself.
+        And during that time, I contributed to some software projects directly
+        and built some proprietary applications myself.
       </p>
 
       {/* <h2 className="section-header">"So your a seasoned developer"</h2>
@@ -83,7 +83,7 @@ function About() {
         they were developing. Overtime, as the company evolved, I became the
         project manager for the development teams, managing all in-house
         development projects (essentially acting as the PM, PO, Designer, Tester
-        etc.)
+        etc.).
       </p>
       <p>
         While there, I again used python to conduct data analysis as my role as
