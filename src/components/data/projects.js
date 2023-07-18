@@ -4,7 +4,7 @@ export const ProjectData = [
     title: "Github Pages (This Page)",
     tagline: "A React Single-Page App with Material UI",
     about:
-      "Origionally created by ThantZinPhyo (see footer for a link), I modified the page contents to showcase my experience and skills, adding Material UI (mui) for some added nice UI components.",
+      "Originally created by ThantZinPhyo (see footer for a link), I modified the page contents to showcase my experience and skills, adding Material UI (mui) for some added nice UI components.",
     tags: ["React"],
     demo: "",
     github: "https://github.com/davebyrne222/davebyrne222.github.io",

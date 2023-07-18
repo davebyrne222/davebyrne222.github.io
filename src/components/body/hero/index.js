@@ -14,7 +14,7 @@ function Hero() {
           </div>
           <div className="hero-info-subheader">
             <div className="hero-quote">
-              "Huh!? Thats a weird mix of experience" <br /> - You
+              "Huh!? that's a weird mix of experience" <br /> - You
             </div>
             <br /> I agree! See <a href="#about">About</a> for a better
             explanation
@@ -22,11 +22,11 @@ function Hero() {
           <div className="hero-info-body">
             I'm an IT professional with over 10 years experience in the software
             development industry, primarily as a Scrum Master. I'm now
-            transitioning to full-time developer
+            transitioning to full-time developer.
           </div>
           <div className="hero-info-body">
             Please read my portfolio, check-out my experience, and contact me
-            with any opportunities you may have
+            with any opportunities you may have.
           </div>
         </div>
         <div className="hero-photo">

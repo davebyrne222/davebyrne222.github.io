@@ -19,22 +19,22 @@ function About() {
         Three reasons:
         <ul>
           <li>
-            I have always enjoyed 'coding'; As an undergrad, I studied C and C++
-            and caught the 'bug'. I then moved on to python and continued to use
-            it wherever I could, be it work or personal projects. As a scrum
-            master, I was always interested in what the developers wwre doing,
+            I have always enjoyed 'coding' - As an undergrad, I studied C and
+            C++ and caught the 'bug'. I then moved on to python and continued to
+            use it wherever I could, be it work or personal projects. As a scrum
+            master, I was always interested in what the developers were doing,
             often wanting to understand more of what they were working on and at
             times, even contributing
           </li>
           <li>
-            I miss working on a technical challenges - as a physicist, I enjoyed
+            I miss working on technical challenges - as a physicist, I enjoyed
             working on difficult problems and creating solutions (often using
             python)
           </li>
           <li>
             The time is right - I have just been made redundant (layed-off) and
             coincidentally had recently started studying computer science in
-            Dublins 'Dublin Business School' as a hobby so, I felt it was the
+            Dublin's 'Dublin Business School' as a hobby, so I felt it was the
             right time to make the change
           </li>
         </ul>
@@ -47,7 +47,7 @@ function About() {
         Physicists regularly use programming as a tool to assist in their
         research and work, so-much-so that my first coding experience was as an
         undergraduate student first studying Matlab, and then C & C++ for
-        numerical analaysis. As a masters student, I then used python for data
+        numerical analysis. As a masters student, I then used python for data
         analysis and modelling
       </p>
       <p>
@@ -55,7 +55,7 @@ function About() {
         of development teams across a broad range of projects including
         industrial automation & IoT, speech technology for education, and most
         recently in the travel industry connecting travel agents, airlines,
-        hotels, etc. During this time, I became intemately involved in the
+        hotels, etc. During this time, I became intimately involved in the
         development lifecycle, from requirements generation to design, from
         prototyping to full CI/CD pipelined implementations, from dark-releases
         to global customer releases (and the inevitable outages)
@@ -87,9 +87,9 @@ function About() {
       </p>
       <p>
         While there, I again used python to conduct data analysis as my role as
-        a techncial expert but I also later personally developed two
+        a technical expert but I also later personally developed two
         customer-facing applications. The first was an automation system
-        developed in python that could be used to control pharmacutical
+        developed in python that could be used to control pharmaceutical
         processes via python scripts and websockets. The second was a desktop
         application written in PyQT and R that could analyse chemometric data
         and build predictive models using partial-least squares regression
