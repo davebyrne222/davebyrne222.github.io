@@ -50,7 +50,7 @@ export const SkillsData = [
         icon: <i className="devicon-csharp-plain colored"></i>,
       },
       {
-        name: "C/C++ (WPF)",
+        name: "C/C++",
         icon: <i className="devicon-cplusplus-plain colored"></i>,
       },
     ],
