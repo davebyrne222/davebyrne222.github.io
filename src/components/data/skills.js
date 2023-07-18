@@ -63,10 +63,6 @@ export const SkillsData = [
         icon: <i className="devicon-git-plain colored"></i>,
       },
       {
-        name: "Ubuntu",
-        icon: <i className="devicon-ubuntu-plain colored"></i>,
-      },
-      {
         name: "Postman",
         icon: <i className="devicon-postman-plain colored"></i>,
       },
