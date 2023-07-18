@@ -1,6 +1,9 @@
 .body {
   padding: 12px;
-  padding-bottom: 36px;
+}
+
+.section {
+  padding-bottom: 48px;
 }
 
 .section-title {

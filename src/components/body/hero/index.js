@@ -3,7 +3,7 @@ import "./hero.css";
 import SocialContact from "../../common/social-contact/index";
 function Hero() {
   return (
-    <div className="hero">
+    <div className="section hero">
       <div className="hero-top">
         <div className="hero-info">
           Hi, I&#39;m <span className="info-name">Dave</span>

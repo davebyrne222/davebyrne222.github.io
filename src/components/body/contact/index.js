@@ -4,7 +4,7 @@ import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
 function Contact() {
   return (
-    <div className="contact">
+    <div className="section contact">
       <Separator />
       <h1 className="section-title">Contact</h1>
       <div className="contact-container">

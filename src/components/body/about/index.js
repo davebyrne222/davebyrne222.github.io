@@ -4,7 +4,7 @@ import { AboutData } from "../../data/about";
 import "./about.css";
 function About() {
   return (
-    <div className="about">
+    <div className="section about">
       <Separator />
       <h1 className="section-title">About</h1>
       <p>

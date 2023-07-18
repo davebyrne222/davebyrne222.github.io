@@ -12,7 +12,7 @@ import { styled } from "@mui/material/styles";
 function Projects() {
   const data = ProjectData;
   return (
-    <div className="projects">
+    <div className="section projects">
       <Separator />
       <h1 className="section-title">Portfolio</h1>
       <Grid container spacing={2} alignItems={"stretch"}>

@@ -6,7 +6,7 @@ import SkillCard from "./skill-card";
 function Skills() {
   const data = SkillsData;
   return (
-    <div className="skills">
+    <div className="section skills">
       <Separator />
       <h1 className="section-title">Skills</h1>
       <div className="skills-container">
