@@ -1,51 +1,74 @@
 export const SkillsData = [
   {
-    type: "Web-Development",
+    type: "I'm pretty good at",
     list: [
       {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>
-        },
-      {
-        name: "HTML5",
-        icon: <i class="devicon-html5-plain colored"></i>
-        },
-        {
-          name: "CSS3",
-          icon: <i class="devicon-css3-plain colored"></i>
-          },
-      {
-        name: "JavaScript",
-        icon: <i class="devicon-javascript-plain colored"></i>
-      },
-      {
-        name: "Tailwind",
-        icon: <i class="devicon-tailwindcss-plain colored"></i>
+        name: "Python",
+        icon: <i className="devicon-python-plain colored"></i>,
       },
     ],
   },
   {
-    type: "Cloud & Linux",
+    type: "I can find my way around",
     list: [
       {
-        name: "Azure",
-        icon: <i class="devicon-azure-plain colored"></i>
-      },
-      {
         name: "Docker",
-        icon: <i class="devicon-docker-plain colored"></i>
-      },
-      {
-        name: "Git",
-        icon: <i class="devicon-git-plain colored"></i>
-      },
-      {
-        name: "Ubuntu",
-        icon: <i class="devicon-ubuntu-plain colored"></i>
+        icon: <i className="devicon-docker-plain colored"></i>,
       },
       {
         name: "Bash",
-        icon: <i class="devicon-bash-plain colored"></i>
+        icon: <i className="devicon-bash-plain colored"></i>,
+      },
+      {
+        name: "Javascript",
+        icon: <i className="devicon-javascript-plain colored"></i>,
+      },
+      {
+        name: "React",
+        icon: <i className="devicon-react-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "I'm currently learning",
+    list: [
+      {
+        name: "C#",
+        icon: <i className="devicon-bash-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "I have dabbled in / contributed to projects that used",
+    list: [
+      {
+        name: "Java",
+        icon: <i className="devicon-java-plain colored"></i>,
+      },
+      {
+        name: "C#.NET (WPF)",
+        icon: <i className="devicon-csharp-plain colored"></i>,
+      },
+      {
+        name: "C/C++ (WPF)",
+        icon: <i className="devicon-cplusplus-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "Tools I'm familiar with",
+    list: [
+      {
+        name: "Git",
+        icon: <i className="devicon-git-plain colored"></i>,
+      },
+      {
+        name: "Ubuntu",
+        icon: <i className="devicon-ubuntu-plain colored"></i>,
+      },
+      {
+        name: "Postman",
+        icon: <i className="devicon-postman-plain colored"></i>,
       },
     ],
   },

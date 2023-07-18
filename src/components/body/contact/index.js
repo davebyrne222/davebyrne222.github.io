@@ -5,12 +5,14 @@ import SocialContact from "../../common/social-contact";
 function Contact() {
   return (
     <div className="contact">
-    <Separator />
-    <label className="section-title">Contact</label>
-    <div className="contact-container">
-      <div className="contact-left">
-        <p>Want to get in touch? Contact me on any of the platform</p>
-        <SocialContact />
+      <Separator />
+      <h1 className="section-title">Contact</h1>
+      <div className="contact-container">
+        <div className="contact-left">
+          <p>
+            Want to get in touch? Contact me at any of the following platforms
+          </p>
+          <SocialContact />
         </div>
       </div>
     </div>
