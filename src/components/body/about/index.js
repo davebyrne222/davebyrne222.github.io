@@ -19,12 +19,12 @@ function About() {
         Three reasons:
         <ul>
           <li>
-            I have always enjoyed 'coding' - As an undergrad, I studied C and
-            C++ and caught the 'bug'. I then moved on to python and continued to
-            use it wherever I could, be it work or personal projects. As a scrum
-            master, I was always interested in what the developers were doing,
-            often wanting to understand more of what they were working on and at
-            times, contributing
+            I have always enjoyed software development - as an undergrad, I
+            studied C and C++ and caught the 'bug'. I then moved to python and
+            continued to use it wherever I could, be it work or personal
+            projects. As a scrum master, I was always interested in what the
+            developers were doing, often wanting to understand more of what they
+            were working on and at times, contributing
           </li>
           <li>
             I miss working on technical challenges - as a physicist, I enjoyed
@@ -32,8 +32,10 @@ function About() {
             python)
           </li>
           <li>
-            The time is right - I have just been made redundant (layed-off) and
-            coincidentally had recently started studying computer science in
+            The time is right - following suit with the recent widespread
+            redundancies / layoffs in the tech. industry in Ireland, my role has
+            been made redundant with my most recent employer. And
+            coincidentally, I had recently started studying computer science in
             Dublin Business School as a hobby, so I felt it was the right time
             to make the change
           </li>
@@ -65,41 +67,39 @@ function About() {
         and built some proprietary applications myself.
       </p>
 
-      {/* <h2 className="section-header">"So your a seasoned developer"</h2>
-      <p>
-        Not at all. I can read code and understand complex implementations but
-        to date, I have only developed 'simple' applications. Additionally, as I
-        am largely self-taught, I suspect I have some learning to do when it
-        comes to best-practices. That being said, I am not starting from scratch
-        even though it may seem that way on paper.
-      </p> */}
-
       <h2 className="section-header">How did I get here?</h2>
       <p>
         After finishing college, I began working in the pharmaceutical industry
-        as a physicist. The company I worked for was small and so as somebody
-        who had some coding experience, I began to work with the developers,
-        mainly providing some technical expertise for hardware control software
-        they were developing. Overtime, as the company evolved, I became the
-        project manager for the development teams, managing all in-house
-        development projects (essentially acting as the PM, PO, Designer, Tester
-        etc.).
+        as a Technical Development Specialist designing and building industrial
+        sensors that could monitor the quality of pharmaceutical product being
+        produced using just light. The company I worked for was small and so as
+        somebody who had some coding experience, I began to work with the
+        developers, mainly providing some technical expertise for the hardware
+        control software they were developing for the sensors I was responsible
+        for. Overtime, as the company evolved, I became the project manager for
+        the development teams, managing all in-house development projects
+        (essentially acting as the PM, PO, Designer, Tester etc.).
       </p>
       <p>
-        While there, I again used python to conduct data analysis as my role as
-        a technical expert but I also later personally developed two
-        customer-facing applications. The first was an automation system
-        developed in python that could be used to control pharmaceutical
-        processes via python scripts and websockets. The second was a desktop
-        application written in PyQT and R that could analyse chemometric data
-        and build predictive models using partial-least squares regression
-        modelling.
+        While there, I again used python to conduct data analysis and I also
+        later personally developed two customer-facing applications. The first
+        was an automation system developed in python that could be used to
+        control pharmaceutical processes via python scripts and websockets. The
+        second was a desktop application written in PyQT and R that could
+        analyse chemometric data and build predictive models using Partial-Least
+        Squares Regression modelling. These predictive models could be used to
+        monitor the product quality of an active pharmaceutical process which in
+        turn would be fed back into the automation system I developed so that
+        the process could be directed to produce the highest quality product.
       </p>
       <p>
-        Again, being in a small company, everybody wears many hats and I decided
-        to focus on being a scrum master, moving on to other roles in other
-        companies. I loved being a scrum master for a long time, but I can't
-        help but miss the technical side of things.
+        As time progressed and the company evolved to a scale where it became
+        impossible to maintain multiple concurrent roles, I decided to focus on
+        being a scrum master, eventually moving on to other companies.
+      </p>
+      <p>
+        Having enjoyed being a scrum master for a long time, I miss working
+        hands-on developing software and so have decided to re-focus my career.
       </p>
     </div>
   );
