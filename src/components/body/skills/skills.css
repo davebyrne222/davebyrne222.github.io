@@ -8,10 +8,6 @@
   justify-content: space-between;
   margin: 12px 0px;
 }
-.skills-section-title {
-  font-size: 20px;
-  font-weight: 200;
-}
 
 .skills-list {
   display: flex;

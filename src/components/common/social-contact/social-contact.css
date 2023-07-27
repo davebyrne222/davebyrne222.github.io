@@ -8,13 +8,3 @@
     cursor: pointer;
     margin: 6px;
 }
-
-.social-icons {
-    height: 40px;
-}
-
-@media only screen and (max-width: 720px) {
-    .social-icons{
-        height: 32px;
-    }
-}
