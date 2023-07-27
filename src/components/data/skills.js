@@ -56,6 +56,15 @@ export const SkillsData = [
     ],
   },
   {
+    type: "Databases I'm familiar with",
+    list: [
+      {
+        name: "Mircosoft SQLServer",
+        icon: <i className="devicon-microsoftsqlserver-plain colored"></i>,
+      },
+    ],
+  },
+  {
     type: "Tools I'm familiar with",
     list: [
       {
@@ -64,7 +73,12 @@ export const SkillsData = [
       },
       {
         name: "Postman",
-        icon: <i className="devicon-postman-plain colored"></i>,
+        icon: (
+          <img
+            src={require("../../assets/icons/postman.png")}
+            style={{ width: 60 }}
+          />
+        ),
       },
     ],
   },
