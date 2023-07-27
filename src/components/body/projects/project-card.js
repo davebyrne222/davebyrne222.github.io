@@ -38,7 +38,12 @@ export default function ActionAreaCard({ project }) {
           {project.live ? (
             ""
           ) : (
-            <Chip label="Coming Soon" size="small" variant="outlined" />
+            <Chip
+              label="Coming Soon"
+              size="small"
+              variant="outlined"
+              style={{ color: "#028ca1" }}
+            />
           )}
         </CardContent>
         <CardContent sx={{ flexGrow: 1 }}>
