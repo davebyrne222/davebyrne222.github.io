@@ -6,15 +6,13 @@ function Hero() {
     <div className="section hero">
       <div className="hero-top">
         <div className="hero-info">
-          Hi, I&#39;m <span className="info-name">Dave</span>
+          <span className="info-name">David Byrne</span>
           <div className="hero-tagline">
-            <label className="hero-prof-old">Physicist</label>{" "}
-            <label className="hero-prof-old">Scrum Master</label> [ Back-End ]{" "}
-            <strong> Developer</strong>
+            Physicist, Scrum Master, [ Back-End ] <strong> Developer</strong>
           </div>
           <div className="hero-info-subheader">
             <div className="hero-quote">
-              "Huh!? that's a weird mix of experience" <br /> - You
+              "Huh!? that's a weird mix of experience" <br /> - You, presumably
             </div>
             <br /> I agree! See <a href="#about">About</a> for a better
             explanation
