@@ -24,7 +24,7 @@ function Hero() {
             now transitioning to full-time developer.
           </div>
           <div className="hero-info-body">
-            Please read my portfolio, check-out my experience, and contact me
+            Please read my portfolio, check out my experience, and contact me
             with any opportunities you may have.
           </div>
         </div>
