@@ -18,7 +18,7 @@ function Projects() {
       <Grid container spacing={2} alignItems={"stretch"}>
         {data.map((project) => {
           return (
-            <Grid sm={1} md={4} key={project.id}>
+            <Grid item xs={12} sm={6} md={4} key={project.id}>
               <ActionAreaCard project={project} key={project.id} />
             </Grid>
           );
