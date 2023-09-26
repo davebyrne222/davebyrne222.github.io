@@ -6,7 +6,7 @@ function Hero() {
     <div className="section hero">
       <div className="hero-top">
         <div className="hero-info">
-          <span className="info-name">David Byrne</span>
+          <h1 className="info-name">David Byrne</h1>
           <div className="hero-tagline">
             Physicist, Scrum Master, [ Back-End ] <strong> Developer</strong>
           </div>
