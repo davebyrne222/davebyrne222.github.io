@@ -14,11 +14,11 @@ function Projects() {
   return (
     <div className="section projects">
       <Separator />
-      <h1 className="section-title">Portfolio</h1>
+      <h2 className="section-title">Portfolio</h2>
       <Grid container spacing={2} alignItems={"stretch"}>
         {data.map((project) => {
           return (
-            <Grid sm={1} md={4} key={project.id}>
+            <Grid item xs={12} sm={6} md={4} key={project.id}>
               <ActionAreaCard project={project} key={project.id} />
             </Grid>
           );

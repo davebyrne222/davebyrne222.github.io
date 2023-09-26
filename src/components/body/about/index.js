@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="section about">
       <Separator />
-      <h1 className="section-title">About</h1>
+      <h2 className="section-title">About</h2>
       <p>
         I'm Dave, from Dublin, Ireland. I've been working in the area of
         software development for over 10 years and programming on the side for
@@ -14,7 +14,7 @@ function About() {
         development, I'm making the change.
       </p>
 
-      <h2 className="section-header">Why Change to Software Development?</h2>
+      <h3 className="section-header">Why Change to Software Development?</h3>
       <span>
         Three reasons:
         <ul>
@@ -42,9 +42,9 @@ function About() {
         </ul>
       </span>
 
-      <h2 className="section-header">
+      <h3 className="section-header">
         How are physics, Scrum Mastering, and Software Development related?
-      </h2>
+      </h3>
       <p>
         Physicists regularly use programming as a tool to assist in their
         research and work, so-much-so that my first coding experience was as an
@@ -67,7 +67,7 @@ function About() {
         and built some proprietary applications myself.
       </p>
 
-      <h2 className="section-header">How did I get here?</h2>
+      <h3 className="section-header">How did I get here?</h3>
       <p>
         After finishing college, I began working in the pharmaceutical industry
         as a Technical Development Specialist designing and building industrial

@@ -1,11 +1,3 @@
-<h2 align="center">
-  Portfolio-Website (React.Js) <br/>
-</h2>
-<div align="center">
-</div>
-
-<br/>
-
 Responsive Portfolio Website Design Using React.Js CSS &amp; HTML
 
 - Smooth scrolling in each section.
